@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Cities Visualizations</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+      
+        </head>
+
+
+<body>
+    <!--Navigation-->  
+    <div class="navigation">
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            
+             <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">Cities Visualizations</a>
+            </div>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                
+                <li class="dropdown active"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots<span class="caret"></span></a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="max_temp.html">Maximum Temperature</a> 
+                        <a class="dropdown-item" href="humidity.html">Humidity</a>
+                        <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                        <a class="dropdown-item" href="wind.html">Wind Speed</a>
+                    </div>
+                </li>
+
+                <li class="nav-item active">
+                  <a class="nav-link" href="data.html">Data<span class="sr-only">(current)</span></a>
+                </li>
+                
+                <li class="nav-item active">
+                    <a class="nav-link" href="comparisons.html">Comparisons<span class="sr-only">(current)</span></a>
+                </li>
+                
+              </ul>
+            </div>
+          </nav>
+     </div>
+
+    <!--Title, Image, and Explanation-->  
+    <h1>Cities Visualizations Homepage</h1>
+    <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/1NZVjc68MgkT4X8BQi" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/nasa-nasagif-polar-vortex-polarvortex2019-1NZVjc68MgkT4X8BQi">via GIPHY</a></p>
+    <div>
+        <p>
+            This project looks at the weather conditions in over 500 different cities. Using data collected on 5 January 2017, the maximum temperature, humidity, cloudiness, and wind speed for each city were recorded along with its geographic coordinates. 
+            This allows us to look at how weather conditions vary for cities according to latitude. 
+            To view the trends side-by-side, navigate to the Comparisons page, but more indepth analysis of each condition can be found in Plots. 
+            For more information about the data represented in the Plots pages, look at the Data page. 
+        </p>
+    </div>
+
+</body>
+</html>
